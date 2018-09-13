@@ -1,0 +1,219 @@
+/* CSS styling for redirect page */
+
+
+
+/*  background for whole doc*/
+html
+{
+    background-color: #2e495c;
+
+    padding: 20px;
+}
+
+/* body of document, centered, font family defined  */ 
+body
+{
+    background-color: #f5f8fa;
+    text-align: center; 
+    opacity: 0.8;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: Verdana;
+}
+
+/* site title  */
+h2
+{
+    font-size: 36px;
+    font-family: Verdana;
+}
+
+/* list titles  */
+h3
+{
+    font-size: 24px;
+    font-family: Verdana;
+    text-decoration: underline;
+}
+
+/* site subtitle   */
+h4
+{
+    font-size: 14px;
+}
+
+/*  list and form container, flex to keep uniformity  */
+#container
+{
+    overflow: auto;
+    display: flex;
+}
+
+/* list groupings  */
+.content
+{
+    overflow: auto;
+    float: left;
+    width: 50%;
+    min-width: 300px;
+    border: solid  2px rgba(5, 15, 66, 0.26);
+    border-radius: 8px;
+    background-color: rgba(231, 238, 243, 0.67); 
+    padding: 10px;
+    margin: 15px;
+}
+
+/* list groupings centered */
+.group
+{
+    display: inline-block;
+    text-align: center;
+    margin: auto:
+}
+
+/* form elements centered  */
+.form_group
+{
+    display: inline-block;
+    text-align: center;
+}
+
+/* list items */
+li
+{
+    list-style-type: none;
+    font-family: Verdana;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 22%;
+}
+
+/* list class */
+.list
+{
+    width: 100%;
+    display: block;
+}
+
+/* inputs (forms) */
+input
+{
+    width: 250px;
+    border-radius: 5px;
+    border: solid black 1px;
+    margin: 2px;
+    text-align: center;
+    height: 20px;
+    font-size: 14px;
+    display: block; 
+}
+
+/* submit buttons  */
+.submit_button
+{
+    width: 255px;
+    height: 24px;
+}
+
+/* remove buttons next to list items */
+.remove_b
+{
+
+    font-style: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    border-radius: 100px;
+}
+
+/* remove buttons on hover (red border)  */
+.remove_b:hover
+{
+    border: 1px solid red;
+}
+
+/* blocking status button */
+#blocking_status
+{
+    width: 160px;
+    height: 22px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-transform: lowercase;
+}
+
+/* blocking status button on hover (black border) */
+#blocking_status:hover
+{
+    border: solid black 1px;
+}
+
+/* blocking status button when blocking enabled */
+.blocking_status_enabled
+{
+    background-color: rgba(0, 112, 7, 0.18);
+    border-color: rgba(0, 112, 7, 0.18);
+}
+
+/* blocknig status button when blocking disabled */
+.blocking_status_disabled
+{
+    background-color: rgba(230, 101, 101, .25);
+    border-color: rgba(230, 101, 101, 1);
+}
+
+/* block button */
+#sb
+{
+    background-color: rgba(230, 101, 101, 1); 
+    border-color: rgba(230, 101, 101, 1); 
+}
+
+/* block button on hover (black border) */
+#sb:hover
+{
+    border-color: black; 
+}
+
+/* redirect button on hover (black border) */
+#sr:hover
+{
+    border-color: black; 
+}
+
+/* redirect button */
+#sr
+{
+    background-color: rgba(167, 211, 241, 1); 
+    border-color: rgba(167, 211, 241, 1);
+}
+
+/* italicize word "productive" in site subtitle */
+#italics
+{
+    font-style: italic;
+    font-size: 18px;
+    padding: 8px;
+    display: inline-block;
+    color: #050a66; 
+}
+
+/* link appearances */
+a:link 
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: black;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #215ac4; 
+    text-decoration: underline;
+}
