@@ -72,8 +72,15 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("redirect-sites").innerHTML += template_r(r_data);
 
 
-        // inject link to css page into html page
-            // (workaround due to issues created by web filtering and manifest)
+        // inject link to CSS page into HTML page
+// BUG: right now this is a workaround 
+        // ISSUE: the page's raw HTML usually shows for a split second prior to the CSS loading, annoying
+        // WHY: 
+            // I can't figure out how to natively link to the CSS from within the HTML doc. It's not working.
+            // This is probably caused by the way web filtering works, or the manifest, which is blocking the CSS page
+            // So currently the link to the CSS file is being injected into the HTML through this Javascript 
+            // Preferablly it would be already located in the html doc itself
+            // If needed the CSS could be written directly into the html line by line, but I'd rather solve this.
         document.head.insertAdjacentHTML("beforeend",
         "<link rel='stylesheet' type='text/css' href=" + 
                chrome.runtime.getURL('styles.css') + ">");
