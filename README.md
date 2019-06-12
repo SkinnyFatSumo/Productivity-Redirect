@@ -42,7 +42,7 @@ REDIRECTING:
     
 BLOCKING STATUS:
   - Press button at bottom of page to change blocking status.
-  - You can enable or disable blocking at any time without affecting you list of sites.
+  - You can enable or disable blocking at any time without affecting your list of sites.
   
 
 
