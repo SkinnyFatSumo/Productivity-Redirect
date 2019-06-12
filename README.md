@@ -24,7 +24,7 @@ BLOCKING:
   
   - To remove a site press the red "X" button to the left of the site name.
   
-![](block.gif)
+![](redirect.gif)
   
 REDIRECTING:
   - Navigate to "redirect" column on right.
@@ -38,7 +38,7 @@ REDIRECTING:
   - Website names listed below are active hyperlinks.
     - Click one to redirect to the URL it represents.
     
-![](redirect.gif)
+![](block.gif)
     
 BLOCKING STATUS:
   - Press button at bottom of page to change blocking status.
