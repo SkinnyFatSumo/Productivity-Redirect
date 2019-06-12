@@ -12,6 +12,8 @@ INSTALL:
   - Make sure to restart the browser.
   - Then click the "P" to access the Productivity Redirect page.
 
+![](install.gif)
+
 BLOCKING:
   - Navigate to "blocked" column on left.
   - Add full and valid URL of website to be blocked.
@@ -21,6 +23,8 @@ BLOCKING:
   - Hit block or press enter.
   
   - To remove a site press the red "X" button to the left of the site name.
+  
+![](block.gif)
   
 REDIRECTING:
   - Navigate to "redirect" column on right.
@@ -33,6 +37,8 @@ REDIRECTING:
   
   - Website names listed below are active hyperlinks.
     - Click one to redirect to the URL it represents.
+    
+![](redirect.gif)
     
 BLOCKING STATUS:
   - Press button at bottom of page to change blocking status.
