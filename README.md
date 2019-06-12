@@ -2,25 +2,22 @@
 Chrome extension for redirecting your url traffic from distracting to productive websites
 
 BRIEF:
-  - Ever mindlessly switch tabs to a distracting website while working? Like Reddit, or Facebook?
-  - This extension allows you to list out sites to block so you don't mindlessly surf the web when you should be working.
-  - It catches you and redirects you to the extensions home page. 
-  - From there you can add and access links to more productive websites where you really ought to be.
-  - Easily disable blocking when you don't need to be productive.
-  
-  - This is not so much a strict self control and blocking extension. 
-  - It's more targeted at catching you when you get distracted and helping you redirect your attention.
+  - Block sites so you don't mindlessly start surfing the web without realizing it.
+  - Catch and redirect to a landing page with links to more productive sites.
+  - Easily disable blocking when you don't need it.
+  - This isn't about strict lockouts, more like a momentary interruption to get you back on track,
   
 INSTALL:
   - On install a small white square with a "P" will appear to the right of your address bar.
-  - Click it to access the Productivity Redirect page.
-  
+  - Make sure to restart the browser.
+  - Then click the "P" to access the Productivity Redirect page.
+
 BLOCKING:
   - Navigate to "blocked" column on left.
   - Add full and valid URL of website to be blocked.
     - That URL and any additional paths from it will be blocked and redirected.
   - Enter name for the website.
-    - You MUST enter both a URL and website name
+    - You MUST enter both a URL and website name.
   - Hit block or press enter.
   
   - To remove a site press the red "X" button to the left of the site name.
